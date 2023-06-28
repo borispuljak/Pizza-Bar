@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>PZI - Vježba 9</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./styles/stil.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mali"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header: Logo tekst i navigacija -->
+      <header>
+        <div class="container flex-container">
+          <h2>Pizza Bar</h2>
+          <div id="shopping-card">
+            <i class="fas fa-shopping-cart"></i>
+            <div id="shopping-count">0</div>
+          </div>
+          <nav>
+            <a class="nav-links" href="#">Početna</a>
+            <a class="nav-links" href="#akcije">Akcije</a>
+            <a class="nav-links" href="#cjenik">Cjenik</a>
+            <a class="nav-links" href="#kontakt">Kontakt</a>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Cover slika -->
+      <section id="cover">
+        <img src="./slike/Pizza-cover.png" alt="Pizza Cover" />
+        <div id="bg-gradient"></div>
+        <div id="cover-text" class="container">
+          <h1>Najbolja pizza u gradu</h1>
+          <small>Dostava na Vašu adresu</small>
+          <a class="action-btn" href="#">Naruči odmah</a>
+        </div>
+      </section>
+
+      <!-- Akcije -->
+      <section id="akcije" class="section-box">
+        <h2 class="section-title">Odaberi najbolju pizzu</h2>
+        <span class="title-underline"></span>
+        <div id="pizzas-holder" class="container">
+          <article class="pizza-card">
+            <img
+              class="pizza-image"
+              src="./slike/pizzas/margherita.png"
+              alt="Pizza Margherita"
+            />
+            <h3 class="pizza-name">Margherita</h3>
+            <p class="pizza-description">
+              Vestibulum tincidunt a erat ac pretium. Sed efficitur aliquet
+              consequat. Pellentesque tellus massa, maximus nec mi ut, laoreet
+              feugiat libero. In feugiat rutrum elementum. Fusce ornare ex a
+              massa tempor posuere.
+            </p>
+            <span class="pizza-price">Već od: <em>22,00 kn</em></span>
+            <button class="pizza-button">Naruči</button>
+          </article>
+          <article class="pizza-card">
+            <img
+              class="pizza-image"
+              src="./slike/pizzas/capricciosa.png"
+              alt="Pizza Capricciosa"
+            />
+            <h3 class="pizza-name">Capricciosa</h3>
+            <p class="pizza-description">
+              Vestibulum tincidunt a erat ac pretium. Sed efficitur aliquet
+              consequat. Pellentesque tellus massa, maximus nec mi ut, laoreet
+              feugiat libero. In feugiat rutrum elementum. Fusce ornare ex a
+              massa tempor posuere.
+            </p>
+            <span class="pizza-price">Već od: <em>23,00 kn</em></span>
+            <button class="pizza-button">Naruči</button>
+          </article>
+          <article class="pizza-card">
+            <img
+              class="pizza-image"
+              src="./slike/pizzas/pancetta.png"
+              alt="Pizza Pancetta"
+            />
+            <h3 class="pizza-name">Pancetta</h3>
+            <p class="pizza-description">
+              Vestibulum tincidunt a erat ac pretium. Sed efficitur aliquet
+              consequat. Pellentesque tellus massa, maximus nec mi ut, laoreet
+              feugiat libero. In feugiat rutrum elementum. Fusce ornare ex a
+              massa tempor posuere.
+            </p>
+            <span class="pizza-price">Već od: <em>24,00 kn</em></span>
+            <button class="pizza-button">Naruči</button>
+          </article>
+          <article class="pizza-card">
+            <img
+              class="pizza-image"
+              src="./slike/pizzas/romagna.png"
+              alt="Pizza Romagna"
+            />
+            <h3 class="pizza-name">Romagna</h3>
+            <p class="pizza-description">
+              Vestibulum tincidunt a erat ac pretium. Sed efficitur aliquet
+              consequat. Pellentesque tellus massa, maximus nec mi ut, laoreet
+              feugiat libero. In feugiat rutrum elementum. Fusce ornare ex a
+              massa tempor posuere.
+            </p>
+            <span class="pizza-price">Već od: <em>25,00 kn</em></span>
+            <button class="pizza-button">Naruči</button>
+          </article>
+          <article class="pizza-card">
+            <img
+              class="pizza-image"
+              src="./slike/pizzas/americana.png"
+              alt="Pizza Americana"
+            />
+            <h3 class="pizza-name">Americana</h3>
+            <p class="pizza-description">
+              Vestibulum tincidunt a erat ac pretium. Sed efficitur aliquet
+              consequat. Pellentesque tellus massa, maximus nec mi ut, laoreet
+              feugiat libero. In feugiat rutrum elementum. Fusce ornare ex a
+              massa tempor posuere.
+            </p>
+            <span class="pizza-price">Već od: <em>26,00 kn</em></span>
+            <button class="pizza-button">Naruči</button>
+          </article>
+          <article class="pizza-card">
+            <img
+              class="pizza-image"
+              src="./slike/pizzas/vegana.png"
+              alt="Pizza Vegana"
+            />
+            <h3 class="pizza-name">Vegana</h3>
+            <p class="pizza-description">
+              Vestibulum tincidunt a erat ac pretium. Sed efficitur aliquet
+              consequat. Pellentesque tellus massa, maximus nec mi ut, laoreet
+              feugiat libero. In feugiat rutrum elementum. Fusce ornare ex a
+              massa tempor posuere.
+            </p>
+            <span class="pizza-price">Već od: <em>27,00 kn</em></span>
+            <button class="pizza-button">Naruči</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- Tablica cjenika -->
+      <section id="cjenik" class="section-box">
+        <h3 class="section-title">Cjenik</h3>
+        <span class="title-underline"></span>
+        <div class="container">
+          <table>
+            <thead>
+              <tr class="table-header-row">
+                <th>Pizza</th>
+                <th>Veličina</th>
+                <th>Cijena</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Prva pizza -->
+              <tr class="table-body-row">
+                <td class="table-pizza-name">Margherita</td>
+                <td>Mala</td>
+                <td>22,00 kn</td>
+                <td>Velika</td>
+                <td>34,00 kn</td>
+                <td>Jumbo</td>
+                <td>60,00 kn</td>
+              </tr>
+              <!-- Druga pizza -->
+              <tr class="table-body-row">
+                <td class="table-pizza-name">Capricciosa</td>
+                <td>Mala</td>
+                <td>23,00 kn</td>
+                <td>Velika</td>
+                <td>36,00 kn</td>
+                <td>Jumbo</td>
+                <td>64,00 kn</td>
+              </tr>
+              <!-- Treća pizza -->
+              <tr class="table-body-row">
+                <td class="table-pizza-name">Pancetta</td>
+                <td>Mala</td>
+                <td>24,00 kn</td>
+                <td>Velika</td>
+                <td>38,00 kn</td>
+                <td>Jumbo</td>
+                <td>66,00 kn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Kontakt forma -->
+      <section id="kontakt" class="section-box">
+        <h2 class="section-title">Kontaktirajte nas</h2>
+        <span class="title-underline"></span>
+        <div class="container">
+          <form>
+            <label for="mail">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Email"
+              required
+            />
+            <label for="naslov">Naslov</label>
+            <input
+              type="text"
+              name="subject"
+              id="naslov"
+              placeholder="Naslov poruke"
+              required
+            />
+            <label for="poruka">Poruka</label>
+            <textarea
+              id="poruka"
+              name="message"
+              cols="8"
+              rows="4"
+              placeholder="Vaša poruka..."
+              required
+            ></textarea>
+            <button type="submit" class="pizza-button">Pošalji</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer: Social media links i copyright -->
+      <footer>
+        <div id="footer-box" class="container">
+          <ul id="social-media-list">
+            <!-- Ubaciti "title" atribute na <li> elemente -->
+            <li title="Facebook">
+              <a
+                class="social-media-links"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li title="Instagram">
+              <a
+                class="social-media-links"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li title="Email">
+              <a class="social-media-links" href="mailto:aandab01@fesb.hr">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+          <h4>Pizza Bar</h4>
+          <p id="copyright">
+            &copy;<em> 2023, Sva prava pridržana</em> <br />
+            <strong>Boris Puljak</strong>
+          </p>
+        </div>
+      </footer>
+      <!-- Preuređeni 'shopping-side-menu' -->
+      <div id="shopping-side-menu">
+        <div id="side-menu-items"></div>
+        <div id="side-menu-action">
+          <div class="total-price">
+            <span>Ukupna cijena:</span> <em>0,00</em>
+          </div>
+          <button>Naruči</button>
+        </div>
+      </div>
+    </div>
+  <body>
+    <!-- Ovdje ubaciti JavaScript skriptu koja će se koristiti -->
+    <script src="./js/skripta.js"></script>
+  </body>
+</html>
