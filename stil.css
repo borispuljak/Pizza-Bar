@@ -211,7 +211,7 @@ article.pizza-card:hover {
 
 /* Cjenik */
 #cjenik {
-  background: url('../slike/pizza-price-bg.png') center center no-repeat;
+  background: url('./slike/pizza-price-bg.png') center center no-repeat;
   background-size: cover;
   color: white;
 }
